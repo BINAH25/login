@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  background: url("./images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  padding: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+input {
+  padding: 10px;
+  margin: 50px;
+  outline: none;
+  border: 1px solid hsl(249, 10%, 26%);
+  border-radius: 5px;
+}
+.button {
+  background-color: hsl(154, 59%, 51%);
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  font: 2rem;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 12px;
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.heading {
+  margin-top: 150px;
+  color: white;
+  font-size: 3rem;
+  padding-left: 50px;
+}
+p {
+  color: white;
+  padding-left: 50px;
+  text-align: justify;
+}
+.title-3 {
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 15px;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+.right {
+  width: 70%;
+}
